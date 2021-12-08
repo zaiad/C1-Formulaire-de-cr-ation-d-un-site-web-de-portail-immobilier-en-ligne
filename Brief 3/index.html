@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Formulaire de création d'un site web de portail immobilier en ligne">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site web de portail immobilier en ligne</title>
+</head>
+<body>
+    <form>
+
+        <h1><span>H</span>ome</h1>
+        <label> rayon de recherche : 
+        <input type="search" required></label>
+        <br>
+        <label >fourchette de prix en MAD : Min: 
+        <input type="number" required value="200000">
+        <label>Max :</label>
+        <input type="number" required value="500000"></label>
+        <br>
+        <p> les nombres chambres :</p>
+          <input type="radio" id="3 chambres" name="chambres">
+          <label for="3 chambres">3 chambres</label><br>
+          <input type="radio" id="4 chambres" name="chambres">
+          <label for="4 chambres">4 chambres</label><br>
+          <input type="radio" id="5 chambres" name="chambres">
+          <label for="5 chambres">5 chambres</label><br>
+          <label for="type de propriété"> type de propriété :
+            <select name="chambres" id="chambres">
+            <option value="pleine propriété">pleine propriété</option>
+            <option value="copropriété">copropriété</option>
+            <option value="dénombrement">dénombrement</option>
+            <option value="indivisio">indivision</option>
+            </select>
+          </label>
+          
+      </form>
+</body>
+</html>

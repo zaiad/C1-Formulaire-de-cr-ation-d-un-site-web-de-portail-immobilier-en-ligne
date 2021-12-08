@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background: url("pexels-max-vakhtbovych-7031407.jpg");
+    background-position:center ;
+    background-size: cover;
+}
+
+form{
+    width: 300px;
+    padding: 20px;
+    margin: 20vh auto;
+    background-color: rgba(0, 0, 0, 0.477);
+    border-radius: 12px;
+    color: #fff;
+}
+
+input{
+    padding: 10px;
+    margin: 10px 0;
+}
+
+label{
+    font-size: 19px;
+}
+
+
+h1{
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: system-ui;
+
+}
+
+h1 span{
+    font-size: 50px;
+    color: gold;
+}
